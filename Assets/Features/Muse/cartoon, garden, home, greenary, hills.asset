@@ -52,16 +52,18 @@ MonoBehaviour:
   refinedArtifact:
     rid: -2
   selectedArtifact:
-    rid: -2
+    rid: 6104959703705977127
   m_Operators:
-  - rid: 6104959703705977015
+  - rid: 6104959703705977190
   - rid: 6104959703705977016
   - rid: 6104959703705977017
   - rid: 6104959703705977018
   - rid: 6104959703705977019
   - rid: 6104959703705977020
   m_PreRefineOperators: []
-  m_ExportedArtifacts: []
+  m_ExportedArtifacts:
+  - m_UnityGuid: 131686a3f35f7ad40ba06c38c579650f
+    m_MuseGuid: 08ef073a-813f-4c4c-9b90-acf7c0431ece
   references:
     version: 2
     RefIds:
@@ -100,21 +102,6 @@ MonoBehaviour:
       data:
         m_SessionId: b49231c0-b70b-4ec9-a101-f97bbf47f9aa
         sessionLoaded: 
-    - rid: 6104959703705977015
-      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
-      data:
-        m_OperatorData:
-          type: GenerateOperator
-          key: GenerateOperator
-          version: 1.0.0
-          settings:
-          - TextToSprite
-          - 4
-          enabled: 1
-          assembly: 
-          hideable: 0
-          hidden: 0
-          isRefinement: 0
     - rid: 6104959703705977016
       type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
       data:
@@ -2933,6 +2920,21 @@ MonoBehaviour:
           - b49231c0-b70b-4ec9-a101-f97bbf47f9aa
           enabled: 0
           assembly: Unity.Muse.Sprite
+          hideable: 0
+          hidden: 0
+          isRefinement: 0
+    - rid: 6104959703705977190
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          key: GenerateOperator
+          version: 1.0.0
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
           hideable: 0
           hidden: 0
           isRefinement: 0
