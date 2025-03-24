@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &1
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 53
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16,26 +16,752 @@ MonoBehaviour:
     rid: 6104959703705976832
   m_DefaultStyleData:
     rid: 6104959703705976833
-  m_DefaultStyleVersion: 0
-  m_DefaultStyles: []
+  m_DefaultStyleVersion: 2023111600
+  m_DefaultStyles:
+  - rid: 6104959703705976988
   m_AssetPath: 
   m_PreviousProjectIDs: []
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 6104959703705976832
       type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
       data:
         m_Guid: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
-        m_State: 3
+        m_State: 1
         m_Disposing: 0
-        m_Styles: []
+        m_Styles:
+        - rid: 6104959703705976990
         m_Version: 202231001
     - rid: 6104959703705976833
       type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
       data:
-        m_Guid: 027c1b10-c24e-4e00-bc04-d5b1f3832846
+        m_Guid: 11000000-0000-0000-0000-000000000011
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 6104959703705976991
+        m_Version: 202231001
+    - rid: 6104959703705976988
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 1
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 0
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 00000000-0000-0000-0000-000000000000
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 00000000-0000-0000-0000-000000000000
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 00000000-0000-0000-0000-000000000000
+          m_Name: Default
+          m_Description: Default style.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 
+            m_State: 0
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 
+          m_ValidationImagesData: []
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts: []
+        m_TrainingSetData: []
+        m_Name: Default
+        m_Description: Default style.
+    - rid: 6104959703705976990
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: a15832d4-30de-4d70-aaca-f4ac7459f002
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: 6104959703705976992
+        m_Visible: 1
+        selectedCheckPointGUID: 4b16888a-bed0-482c-b6d6-ab218ba187e3
+        m_FavoriteCheckPointGUID: 4b16888a-bed0-482c-b6d6-ab218ba187e3
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 853d024b-813f-4a09-878e-7f62eed05364
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: df61b7e9-b601-439e-91cf-6893fe926deb
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: df61b7e9-b601-439e-91cf-6893fe926deb
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: a86a3061-ee11-4aaf-85b2-038e26c68578
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: a86a3061-ee11-4aaf-85b2-038e26c68578
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: 37728953-3a7c-40fc-9609-6403922593f2
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 37728953-3a7c-40fc-9609-6403922593f2
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 200
+        - m_Guid: 8f4b2c2d-399e-4e74-b730-c0a4c5a5fb88
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 0728d8a5-2a67-4b3f-8676-419096688176
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 0728d8a5-2a67-4b3f-8676-419096688176
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: 16a6f73a-92ef-4f83-8e01-d0567d72f098
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 16a6f73a-92ef-4f83-8e01-d0567d72f098
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: 1dd0f8de-ded2-44a2-aa53-e82ce871b4ba
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 1dd0f8de-ded2-44a2-aa53-e82ce871b4ba
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 400
+        - m_Guid: f84b261a-bbfa-4c52-b801-650cea3e0d98
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 25159fb7-1bc0-4377-808b-6ca8011434ce
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 25159fb7-1bc0-4377-808b-6ca8011434ce
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: 38ce2445-2fc0-4c12-b240-701fc2c55ec0
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 38ce2445-2fc0-4c12-b240-701fc2c55ec0
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: be7a11d6-d679-47dd-8b2f-a406cbcc936c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: be7a11d6-d679-47dd-8b2f-a406cbcc936c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 600
+        - m_Guid: 6dd65713-3e87-4d44-897f-e2c540cc9252
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 6a8dd191-9779-4a51-871d-60031ca8535c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6a8dd191-9779-4a51-871d-60031ca8535c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: 8a8e1d99-c106-49ed-a49f-631d70249378
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 8a8e1d99-c106-49ed-a49f-631d70249378
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: cdd7d344-9ac7-42a8-95e1-9af5e7ca58c3
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: cdd7d344-9ac7-42a8-95e1-9af5e7ca58c3
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 6a8dd191-9779-4a51-871d-60031ca8535c
+          m_TrainingSteps: 800
+        - m_Guid: 0a4da493-98ea-405f-9f7a-e2e94b0f73bd
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 64150676-34e6-4b33-869e-d50186ba8735
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 64150676-34e6-4b33-869e-d50186ba8735
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: d9337201-6a01-4096-99b6-4f27b1c6fa2c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: d9337201-6a01-4096-99b6-4f27b1c6fa2c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: 20b90b52-578e-41ab-a552-a40c581169c3
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 20b90b52-578e-41ab-a552-a40c581169c3
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 64150676-34e6-4b33-869e-d50186ba8735
+          m_TrainingSteps: 1000
+        - m_Guid: 2f6593d9-a3cd-49d6-a043-f858413915a4
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 317e357f-f5f7-413a-b046-e476a671f809
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 317e357f-f5f7-413a-b046-e476a671f809
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: ea2ed114-cd55-40d2-b1a1-a0240a403993
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ea2ed114-cd55-40d2-b1a1-a0240a403993
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: b9cf1d73-a898-4ebd-b44c-2e9d1083929a
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: b9cf1d73-a898-4ebd-b44c-2e9d1083929a
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 317e357f-f5f7-413a-b046-e476a671f809
+          m_TrainingSteps: 1200
+        - m_Guid: c625f3ec-ca59-4248-860d-4c95763165b3
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 515663b2-a8db-4f64-8bd2-068a82bcfd98
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 515663b2-a8db-4f64-8bd2-068a82bcfd98
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: 24f82b92-7a52-47f7-ba8f-5c73e1cb1660
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 24f82b92-7a52-47f7-ba8f-5c73e1cb1660
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: 61bad53c-c02d-4796-9c26-ca49c5ccb309
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 61bad53c-c02d-4796-9c26-ca49c5ccb309
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 515663b2-a8db-4f64-8bd2-068a82bcfd98
+          m_TrainingSteps: 1400
+        - m_Guid: 304d9f08-c336-42a8-a840-10fc484fe259
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 6d57802e-8a28-4520-8229-ffc3b65149f3
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6d57802e-8a28-4520-8229-ffc3b65149f3
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: 72c7132f-5a5d-486a-962c-3d4fa92f01a0
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 72c7132f-5a5d-486a-962c-3d4fa92f01a0
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: 14d29c4d-e2f7-495e-ac28-2f9b5253e4fc
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 14d29c4d-e2f7-495e-ac28-2f9b5253e4fc
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 6d57802e-8a28-4520-8229-ffc3b65149f3
+          m_TrainingSteps: 1600
+        - m_Guid: bb6b5b14-1f3b-4e9d-9fe9-eaa40ea6d34d
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: ddd90f80-c74e-4859-acd9-011206e20ad0
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ddd90f80-c74e-4859-acd9-011206e20ad0
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: 2a2c5821-26e9-41e0-b53a-6f2cb91a50e8
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2a2c5821-26e9-41e0-b53a-6f2cb91a50e8
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: 01e92266-8e85-40af-890e-517233bf9281
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 01e92266-8e85-40af-890e-517233bf9281
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: ddd90f80-c74e-4859-acd9-011206e20ad0
+          m_TrainingSteps: 1800
+        - m_Guid: 4b16888a-bed0-482c-b6d6-ab218ba187e3
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_Name: Animal 2d Flat Cartoons
+          m_Description: A set of 2d animal icons from iconarchive.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+          m_ValidationImagesData:
+          - m_Guid: 18bed1aa-218d-4190-b0d3-7627a09621ef
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 18bed1aa-218d-4190-b0d3-7627a09621ef
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a dragon
+          - m_Guid: 2fa3f625-ba9d-46dd-bc78-956ce3d82e36
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2fa3f625-ba9d-46dd-bc78-956ce3d82e36
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a television set
+          - m_Guid: 6a2c6094-9a93-44de-89d7-43923b8a0151
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6a2c6094-9a93-44de-89d7-43923b8a0151
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: a bunch of flowers
+          m_FavoriteSampleOutputDataGuid: 18bed1aa-218d-4190-b0d3-7627a09621ef
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts:
+        - A dragon
+        - A television set
+        - A bunch of flowers
+        m_TrainingSetData:
+        - m_Guid: 0fa48369-34e6-4b48-913d-9d6ad78685de
+          m_State: 1
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: f5a93aca-c11f-479c-8f27-c0bd8413ac67
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705976993
+          - m_Guid: d727d2f4-9328-4c2d-82b6-f86a16a82132
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705976994
+          - m_Guid: 8e2f3827-e304-4317-a911-9d8ab56b6845
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705976995
+          - m_Guid: faa7c15e-96dd-48ea-957a-33030b6f5620
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705976996
+          - m_Guid: 8206f4b2-5bb7-4457-9a6e-a80e847b57f6
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705976997
+          - m_Guid: 63d9ecd3-208e-4914-9b2d-33a228157b64
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705976998
+          - m_Guid: 23503409-712b-4cfa-aef5-8b4bee63f0a2
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705976999
+          - m_Guid: 0e6ad089-6459-4af5-b9de-084aac11f9b8
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977000
+          - m_Guid: b4a5c41f-3208-4aa9-98ae-5c01160cc788
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977001
+          - m_Guid: 784f771c-a891-4efa-9bad-a43710ae1c4e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977002
+          - m_Guid: 97e00002-0a4a-4cc2-ba16-1b781d878cf4
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977003
+          - m_Guid: 276294bb-fd65-4fb5-a716-c39b20675c89
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977004
+          - m_Guid: be2d623d-6633-45ae-8dac-e071248b507e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977005
+          - m_Guid: f2387adb-a57a-4d47-97ac-02fcdcf88be5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977006
+          - m_Guid: 4bd739d9-731d-4f0c-9365-647a61e243aa
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 6104959703705977007
+          m_ProjectID: 0dec8623-22cd-4a64-9ec5-0ceb066e0541
+        m_Name: Animal 2d Flat Cartoons
+        m_Description: A set of 2d animal icons from iconarchive.
+    - rid: 6104959703705976991
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 1
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_Name: Happy Harvest [Orion V4 2000]
+          m_Description: 8 Nov 2023
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_ValidationImagesData:
+          - m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A chicken
+          - m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A cow
+          - m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A dog
+          - m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A farmer
+          - m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A pine tree
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1200
+        m_SampleOutputPrompts:
+        - A chicken
+        - A cow
+        - A dog
+        - A farmer
+        - A pine tree
+        m_TrainingSetData:
+        - m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet: []
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_Name: Default
+        m_Description: Default Style
+    - rid: 6104959703705976992
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
         m_State: 3
         m_Disposing: 0
-        m_Styles: []
-        m_Version: 202231001
+    - rid: 6104959703705976993
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: f5a93aca-c11f-479c-8f27-c0bd8413ac67
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705976994
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: d727d2f4-9328-4c2d-82b6-f86a16a82132
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705976995
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 8e2f3827-e304-4317-a911-9d8ab56b6845
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705976996
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: faa7c15e-96dd-48ea-957a-33030b6f5620
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705976997
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 8206f4b2-5bb7-4457-9a6e-a80e847b57f6
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705976998
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 63d9ecd3-208e-4914-9b2d-33a228157b64
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705976999
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 23503409-712b-4cfa-aef5-8b4bee63f0a2
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977000
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 0e6ad089-6459-4af5-b9de-084aac11f9b8
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977001
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: b4a5c41f-3208-4aa9-98ae-5c01160cc788
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977002
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 784f771c-a891-4efa-9bad-a43710ae1c4e
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977003
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 97e00002-0a4a-4cc2-ba16-1b781d878cf4
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977004
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 276294bb-fd65-4fb5-a716-c39b20675c89
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977005
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: be2d623d-6633-45ae-8dac-e071248b507e
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977006
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: f2387adb-a57a-4d47-97ac-02fcdcf88be5
+        m_State: 1
+        m_Disposing: 0
+    - rid: 6104959703705977007
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 4bd739d9-731d-4f0c-9365-647a61e243aa
+        m_State: 1
+        m_Disposing: 0
