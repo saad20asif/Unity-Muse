@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad8f2220607dac4db5082ff333fafb8, type: 3}
+  m_Name: SantaBehaviorGraph
+  m_EditorClassIdentifier: 
+  m_VersionTimestamp: 638785883594040054
+  m_AssetJson: '{"m_Nodes":[{"__TYPE":"Unity.Muse.Behavior.StartNodeModel, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    0","m_RepeatField":{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    0","FieldName":"Repeat","Type":{"Type":"System.Boolean, mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    0","m_Value":true,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}},"NodeTypeID":{"m_Value0Signed":-5888099585505948145,"m_Value1Signed":2326471244322729913},"m_FieldValues":[{"$ref":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    0"}],"Position":{"__TYPE":"UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2 0","x":30.7200241,"y":-152.32},"ID":{"m_Value0Signed":-1990494180767705654,"m_Value1Signed":4276362340853820347},"Parents":[],"PortModels":[{"$id":"1","m_NodeModel":{"$ref":"Graph.NodeModel
+    0"},"m_Connections":{"$id":"2","$values":[{"$id":"3","m_NodeModel":{"__TYPE":"Unity.Muse.Behavior.CompositeNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    1","NodeTypeID":{"m_Value0Signed":6363376940193792830,"m_Value1Signed":-7336572166578525814},"m_FieldValues":[],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    1","x":30.8708458,"y":-36.0503044},"ID":{"m_Value0Signed":5442891631072925152,"m_Value1Signed":5969502873242931433},"Parents":[],"PortModels":[{"$ref":"3"},{"$id":"4","m_NodeModel":{"$ref":"Graph.NodeModel
+    1"},"m_Connections":{"$id":"5","$values":[{"$id":"6","m_NodeModel":{"__TYPE":"Graph.SequenceNodeModel,
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    2","Nodes":[{"__TYPE":"Unity.Muse.Behavior.ActionNodeModel, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    3","NodeTypeID":{"m_Value0Signed":5138257399050973005,"m_Value1Signed":-3239954492578527872},"m_FieldValues":[{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    1","FieldName":"Target","Type":{"Type":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    1","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"__TYPE":"Graph.TypedVariableModel`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.VariableModel
+    0","ID":{"m_Value0Signed":6553977327861094434,"m_Value1Signed":5603184252108378834},"Name":"Target"}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    2","FieldName":"TagValue","Type":{"Type":"System.String, mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    2","m_Value":"Pumpkin","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    2","x":-83.21496,"y":131.688416},"ID":{"m_Value0Signed":7938932139014742536,"m_Value1Signed":8547633940023749026},"Parents":[{"$ref":"Graph.NodeModel
+    2"}],"PortModels":[{"$id":"7","m_NodeModel":{"$ref":"Graph.NodeModel 3"},"m_Connections":{"$id":"8","$values":[]},"Name":"InputPort"},{"$id":"9","m_NodeModel":{"$ref":"Graph.NodeModel
+    3"},"m_Connections":{"$id":"10","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},{"__TYPE":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    4","NodeTypeID":{"m_Value0Signed":5281657082999587131,"m_Value1Signed":-8055986108827597399},"m_FieldValues":[{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    3","FieldName":"Agent","Type":{"Type":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    3","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"__TYPE":"Graph.TypedVariableModel`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.VariableModel
+    1","ID":{"m_Value0Signed":-9223372036854775807,"m_Value1Signed":-9223372036854775808},"Name":"Self"}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    4","FieldName":"Target","Type":{"Type":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    4","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"$ref":"Graph.VariableModel
+    0"}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    5","FieldName":"Speed","Type":{"Type":"System.Single, mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    5","m_Value":12.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    6","FieldName":"DistanceThreshold","Type":{"Type":"System.Single, mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    6","m_Value":1.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    7","FieldName":"AnimatorSpeedParam","Type":{"Type":"System.String, mscorlib,
+    Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    7","m_Value":"SpeedMagnitude","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    3","x":16.03876,"y":160.493912},"ID":{"m_Value0Signed":-3132892169314675729,"m_Value1Signed":-5143301576624476962},"Parents":[{"$ref":"Graph.NodeModel
+    2"}],"PortModels":[{"$id":"11","m_NodeModel":{"$ref":"Graph.NodeModel 4"},"m_Connections":{"$id":"12","$values":[]},"Name":"InputPort"},{"$id":"13","m_NodeModel":{"$ref":"Graph.NodeModel
+    4"},"m_Connections":{"$id":"14","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},{"__TYPE":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    5","NodeTypeID":{"m_Value0Signed":-1493790584748607475,"m_Value1Signed":-403069670411151436},"m_FieldValues":[{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    8","FieldName":"SecondsToWait","Type":{"Type":"System.Single, mscorlib, Version=4.0.0.0,
+    Culture=neutral, PublicKeyToken=b77a5c561934e089"},"LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    8","m_Value":2.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"__TYPE":"Graph.TypedVariableModel`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.VariableModel
+    2","m_Value":2.0,"ID":{"m_Value0Signed":3141356395358030825,"m_Value1Signed":2234891966312005992},"Name":"EatingTime"}}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    4","x":25.611454,"y":168.043243},"ID":{"m_Value0Signed":-5093566996030464533,"m_Value1Signed":-1615714068709889570},"Parents":[{"$ref":"Graph.NodeModel
+    2"}],"PortModels":[{"$id":"15","m_NodeModel":{"$ref":"Graph.NodeModel 5"},"m_Connections":{"$id":"16","$values":[]},"Name":"InputPort"},{"$id":"17","m_NodeModel":{"$ref":"Graph.NodeModel
+    5"},"m_Connections":{"$id":"18","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    5","x":64.62509,"y":49.7684059},"ID":{"m_Value0Signed":-5970096149799791414,"m_Value1Signed":7996231524284473638},"Parents":[],"PortModels":[{"$ref":"6"},{"$id":"19","m_NodeModel":{"$ref":"Graph.NodeModel
+    2"},"m_Connections":{"$id":"20","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Graph.SequenceNodeModel,
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},"m_Connections":{"$id":"21","$values":[{"$ref":"4"}]},"Name":"InputPort"},{"$id":"22","m_NodeModel":{"__TYPE":"Graph.SequenceNodeModel,
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    6","Nodes":[{"__TYPE":"Unity.Muse.Behavior.ActionNodeModel, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    7","NodeTypeID":{"m_Value0Signed":5138257399050973005,"m_Value1Signed":-3239954492578527872},"m_FieldValues":[{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    9","FieldName":"Target","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    9","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"__TYPE":"Graph.TypedVariableModel`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.VariableModel
+    3","ID":{"m_Value0Signed":6553977327861094434,"m_Value1Signed":5603184252108378834},"Name":"Target"}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    10","FieldName":"TagValue","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    10","m_Value":"Water","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    6","x":-73.21496,"y":161.688416},"ID":{"m_Value0Signed":4523801024343852298,"m_Value1Signed":-8653583712802503546},"Parents":[{"$ref":"Graph.NodeModel
+    6"}],"PortModels":[{"$id":"23","m_NodeModel":{"$ref":"Graph.NodeModel 7"},"m_Connections":{"$id":"24","$values":[]},"Name":"InputPort"},{"$id":"25","m_NodeModel":{"$ref":"Graph.NodeModel
+    7"},"m_Connections":{"$id":"26","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},{"__TYPE":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    8","NodeTypeID":{"m_Value0Signed":5281657082999587131,"m_Value1Signed":-8055986108827597399},"m_FieldValues":[{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    11","FieldName":"Agent","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    11","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"__TYPE":"Graph.TypedVariableModel`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.VariableModel
+    4","ID":{"m_Value0Signed":-9223372036854775807,"m_Value1Signed":-9223372036854775808},"Name":"Self"}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    12","FieldName":"Target","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    12","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"$ref":"Graph.VariableModel
+    3"}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    13","FieldName":"Speed","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    13","m_Value":12.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    14","FieldName":"DistanceThreshold","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    14","m_Value":1.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}},{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    15","FieldName":"AnimatorSpeedParam","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    15","m_Value":"SpeedMagnitude","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}}}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    7","x":26.03876,"y":190.493912},"ID":{"m_Value0Signed":-7058224012811429467,"m_Value1Signed":-8700296163587373711},"Parents":[{"$ref":"Graph.NodeModel
+    6"}],"PortModels":[{"$id":"27","m_NodeModel":{"$ref":"Graph.NodeModel 8"},"m_Connections":{"$id":"28","$values":[]},"Name":"InputPort"},{"$id":"29","m_NodeModel":{"$ref":"Graph.NodeModel
+    8"},"m_Connections":{"$id":"30","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},{"__TYPE":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.NodeModel
+    9","NodeTypeID":{"m_Value0Signed":-1493790584748607475,"m_Value1Signed":-403069670411151436},"m_FieldValues":[{"__TYPE":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BehaviorGraphNodeModel+FieldModel
+    16","FieldName":"SecondsToWait","LocalValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    16","m_Value":2.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"LinkedVariable":{"__TYPE":"Graph.TypedVariableModel`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Graph.VariableModel
+    5","m_Value":3.0,"ID":{"m_Value0Signed":-6232628675161071454,"m_Value1Signed":-3412863143832234807},"Name":"DrinkingTime"}}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    8","x":35.611454,"y":198.043243},"ID":{"m_Value0Signed":6661513344030647106,"m_Value1Signed":5441435399290448331},"Parents":[{"$ref":"Graph.NodeModel
+    6"}],"PortModels":[{"$id":"31","m_NodeModel":{"$ref":"Graph.NodeModel 9"},"m_Connections":{"$id":"32","$values":[]},"Name":"InputPort"},{"$id":"33","m_NodeModel":{"$ref":"Graph.NodeModel
+    9"},"m_Connections":{"$id":"34","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.ActionNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"}],"Position":{"__TYPE":"UnityEngine.Vector2,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"UnityEngine.Vector2
+    9","x":-340.367767,"y":68.18403},"ID":{"m_Value0Signed":3872957703992735234,"m_Value1Signed":-4139810138318684415},"Parents":[],"PortModels":[{"$ref":"22"},{"$id":"35","m_NodeModel":{"$ref":"Graph.NodeModel
+    6"},"m_Connections":{"$id":"36","$values":[]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Graph.SequenceNodeModel,
+    Unity.MuseLab.Graph, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},"m_Connections":{"$id":"37","$values":[{"$ref":"4"}]},"Name":"InputPort"}]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.CompositeNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},"m_Connections":{"$id":"38","$values":[{"$ref":"1"}]},"Name":"InputPort"}]},"Name":"OutputPort","PortDataFlowType":1}],"Type":"Unity.Muse.Behavior.StartNodeModel,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"},{"$ref":"Graph.NodeModel
+    3"},{"$ref":"Graph.NodeModel 4"},{"$ref":"Graph.NodeModel 5"},{"$ref":"Graph.NodeModel
+    2"},{"$ref":"Graph.NodeModel 1"},{"$ref":"Graph.NodeModel 6"},{"$ref":"Graph.NodeModel
+    7"},{"$ref":"Graph.NodeModel 8"},{"$ref":"Graph.NodeModel 9"}],"m_Variables":[{"$ref":"Graph.VariableModel
+    1"},{"$ref":"Graph.VariableModel 0"},{"$ref":"Graph.VariableModel 2"},{"$ref":"Graph.VariableModel
+    5"}],"__TYPE":"Unity.Muse.Behavior.BehaviorAuthoringGraph, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"}'
+  m_DebugInfo: {fileID: 8681169726671986077}
+  AssetID:
+    m_Value0: 18207880676439964477
+    m_Value1: 1469878780432884228
+  Story:
+    Story: 
+    Variables: []
+  m_Commands: []
+  m_NodeModelsInfo:
+  - Name: On Start
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 3335272451348827663
+      m_Value1: 11549843281177505721
+    Variables:
+    - Name: Repeat
+      Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+    NamedChildren: []
+  - Name: Set Random Target
+    Story: Set Random Target [Target] From Tag [TagValue]
+    RuntimeTypeID:
+      m_Value0: 14361629435905748813
+      m_Value1: 5983417544276247936
+    Variables:
+    - Name: Target
+      Type:
+        m_SerializableType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - Name: TagValue
+      Type:
+        m_SerializableType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+    NamedChildren: []
+  - Name: Move To Target
+    Story: '[Agent] moves to [Target]'
+    RuntimeTypeID:
+      m_Value0: 14505029119854362939
+      m_Value1: 1167385928027178409
+    Variables:
+    - Name: Agent
+      Type:
+        m_SerializableType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - Name: Target
+      Type:
+        m_SerializableType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - Name: Speed
+      Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+    - Name: DistanceThreshold
+      Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+    - Name: AnimatorSpeedParam
+      Type:
+        m_SerializableType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+    NamedChildren: []
+  - Name: Wait
+    Story: Wait for [SecondsToWait] Seconds
+    RuntimeTypeID:
+      m_Value0: 7729581452106168333
+      m_Value1: 8820302366443624372
+    Variables:
+    - Name: SecondsToWait
+      Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+    NamedChildren: []
+  - Name: Random
+    Story: 
+    RuntimeTypeID:
+      m_Value0: 15586748977048568638
+      m_Value1: 1886799870276249994
+    Variables: []
+    NamedChildren: []
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &2126277569488232646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db920e62f70f420bb33c771449926fa4, type: 3}
+  m_Name: SantaBehaviorGraph
+  m_EditorClassIdentifier: 
+  Graphs:
+  - rid: 6104959743891341378
+  RootGraph:
+    rid: 6104959743891341378
+  m_DebugInfo: {fileID: 8681169726671986077}
+  m_GraphJson: '{"Graphs":[{"$id":"1","AuthoringAssetID":{"m_Value0Signed":8984508639585188669,"m_Value1Signed":-7753493256421891580},"Root":{"__TYPE":"Unity.Muse.Behavior.Start,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    0","Repeat":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    0","m_Value":true,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"ID":{"m_Value0Signed":-1990494180767705654,"m_Value1Signed":4276362340853820347},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    1","GUID":{"m_Value0Signed":-9223372036854775807,"m_Value1Signed":-9223372036854775808},"Name":"Self"},"Child":{"__TYPE":"Unity.Muse.Behavior.Random,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    1","ID":{"m_Value0Signed":5442891631072925152,"m_Value1Signed":5969502873242931433},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 0"},"Children":[{"__TYPE":"Unity.Muse.Behavior.Sequence,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    2","ID":{"m_Value0Signed":3872957703992735234,"m_Value1Signed":-4139810138318684415},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 1"},"Children":[{"__TYPE":"SetRandomTarget,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    3","Target":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    2","GUID":{"m_Value0Signed":6553977327861094434,"m_Value1Signed":5603184252108378834},"Name":"Target"},"TagValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    3","m_Value":"Water","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"ID":{"m_Value0Signed":4523801024343852298,"m_Value1Signed":-8653583712802503546},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 2"}},{"__TYPE":"MoveToTargetAction,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    4","Agent":{"$ref":"Unity.Muse.Behavior.BlackboardVariable 1"},"Target":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    2"},"Speed":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    4","m_Value":12.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"DistanceThreshold":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    5","m_Value":1.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"AnimatorSpeedParam":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    6","m_Value":"SpeedMagnitude","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"ID":{"m_Value0Signed":-7058224012811429467,"m_Value1Signed":-8700296163587373711},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 2"}},{"__TYPE":"WaitAction, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    5","SecondsToWait":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    7","m_Value":3.0,"GUID":{"m_Value0Signed":-6232628675161071454,"m_Value1Signed":-3412863143832234807},"Name":"DrinkingTime"},"ID":{"m_Value0Signed":6661513344030647106,"m_Value1Signed":5441435399290448331},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 2"}}]},{"__TYPE":"Unity.Muse.Behavior.Sequence,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    6","ID":{"m_Value0Signed":-5970096149799791414,"m_Value1Signed":7996231524284473638},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 1"},"Children":[{"__TYPE":"SetRandomTarget,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    7","Target":{"$ref":"Unity.Muse.Behavior.BlackboardVariable 2"},"TagValue":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    8","m_Value":"Pumpkin","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"ID":{"m_Value0Signed":7938932139014742536,"m_Value1Signed":8547633940023749026},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 6"}},{"__TYPE":"MoveToTargetAction,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    8","Agent":{"$ref":"Unity.Muse.Behavior.BlackboardVariable 1"},"Target":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    2"},"Speed":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    9","m_Value":12.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"DistanceThreshold":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    10","m_Value":1.0,"GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"AnimatorSpeedParam":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    11","m_Value":"SpeedMagnitude","GUID":{"m_Value0Signed":-9223372036854775808,"m_Value1Signed":-9223372036854775808}},"ID":{"m_Value0Signed":-3132892169314675729,"m_Value1Signed":-5143301576624476962},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 6"}},{"__TYPE":"WaitAction, Unity.Muse.Behavior,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.Node
+    9","SecondsToWait":{"__TYPE":"Unity.Muse.Behavior.BlackboardVariable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$id":"Unity.Muse.Behavior.BlackboardVariable
+    12","m_Value":2.0,"GUID":{"m_Value0Signed":3141356395358030825,"m_Value1Signed":2234891966312005992},"Name":"EatingTime"},"ID":{"m_Value0Signed":-5093566996030464533,"m_Value1Signed":-1615714068709889570},"Graph":{"$ref":"1"},"GraphOwnerVariable":{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},"Parent":{"$ref":"Unity.Muse.Behavior.Node 6"}}]}]}},"m_Blackboard":{"$id":"2","m_Variables":[{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    1"},{"$ref":"Unity.Muse.Behavior.BlackboardVariable 2"},{"$ref":"Unity.Muse.Behavior.BlackboardVariable
+    12"},{"$ref":"Unity.Muse.Behavior.BlackboardVariable 7"}]},"Blackboard":{"$ref":"2"}}],"RootGraph":{"$ref":"1"},"Blackboard":{"$ref":"2"},"IsRunning":false,"__TYPE":"Unity.Muse.Behavior.BehaviorGraph,
+    Unity.Muse.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"}'
+  references:
+    version: 2
+    RefIds:
+    - rid: 6104959743891341378
+      type: {class: BehaviorGraphModule, ns: Unity.Muse.Behavior, asm: Unity.Muse.Behavior}
+      data:
+        Asset: {fileID: 11400000}
+        AuthoringAssetID:
+          m_Value0: 18207880676439964477
+          m_Value1: 1469878780432884228
+        m_DebugInfo: {fileID: 0}
+        Root:
+          rid: 6104959743891341379
+        m_Blackboard:
+          rid: 6104959743891341380
+        m_VersionTimestamp: 638785883594040054
+    - rid: 6104959743891341379
+      type: {class: Start, ns: Unity.Muse.Behavior, asm: Unity.Muse.Behavior}
+      data:
+        ID:
+          m_Value0: 7232877856087070154
+          m_Value1: 13499734377708596155
+        Repeat:
+          GUID:
+            m_Value0: 0
+            m_Value1: 0
+          Name: 
+          m_Value: 1
+    - rid: 6104959743891341380
+      type: {class: Blackboard, ns: Unity.Muse.Behavior, asm: Unity.Muse.Behavior}
+      data: 
+--- !u!114 &8681169726671986077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b27bb6d9a2c8d540a10dff10acc543e, type: 3}
+  m_Name: SantaBehaviorGraph Debug Info
+  m_EditorClassIdentifier: 
+  m_CodeBreakPointsList: []

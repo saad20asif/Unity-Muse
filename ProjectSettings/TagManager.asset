@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Santa
   - Pumpkin
+  - Water
   layers:
   - Default
   - TransparentFX
